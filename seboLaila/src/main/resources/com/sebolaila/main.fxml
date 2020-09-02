@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="270.0" prefWidth="379.0" style="-fx-background-color: #560d0d;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.sebolaila.MainController">
+   <children>
+      <Pane layoutX="10.0" layoutY="62.0" prefHeight="188.0" prefWidth="359.0" style="-fx-background-color: #490a0a; -fx-background-radius: 15px;" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="62.0">
+         <children>
+            <Button fx:id="btnVisualizarLivros" alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="101.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="140.0" style="-fx-background-color: #400a0a; -fx-background-radius: 10px; -fx-text-alignment: center; -fx-border-color: black; -fx-border-radius: 10px; -fx-border-width: 0.5px;" text="Visualizar livros" textFill="WHITE">
+               <font>
+                  <Font name="Abyssinica SIL" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnCadastrarLivro" alignment="CENTER" contentDisplay="CENTER" layoutX="15.0" layoutY="40.0" mnemonicParsing="false" onAction="#setBtnCadastrarLivro" prefHeight="50.0" prefWidth="130.0" style="-fx-background-color: #400a0a; -fx-background-radius: 10px; -fx-text-alignment: center; -fx-border-color: black; -fx-border-radius: 10px; -fx-border-width: 0.5px;" text="Cadastrar livro" textFill="WHITE">
+               <font>
+                  <Font name="Abyssinica SIL" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+            <Button fx:id="btnCadastrarPessoa" layoutX="215.0" layoutY="40.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="130.0" style="-fx-background-color: #400a0a; -fx-background-radius: 10px; -fx-text-alignment: center; -fx-border-color: black; -fx-border-radius: 10px; -fx-border-width: 0.5px;" text="Cadastar pessoa" textFill="WHITE">
+               <font>
+                  <Font name="Abyssinica SIL" size="15.0" />
+               </font>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="106.0" layoutY="13.0" opacity="0.7" prefHeight="36.0" prefWidth="171.0" style="-fx-text-alignment: center;" text="Sêbo da Laila">
+         <font>
+            <Font name="Abyssinica SIL" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="102.0" layoutY="11.0" prefHeight="36.0" prefWidth="171.0" style="-fx-text-alignment: center;" text="Sêbo da Laila" textFill="WHITE">
+         <font>
+            <Font name="Abyssinica SIL" size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
